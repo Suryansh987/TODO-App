@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249,249,249);
+    list-style: none;
+}
+.navitems{
+    margin: 10px 30px;
+    padding: 10px 20px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(0 0 0 / 54%);
+}
+.navitems:hover{
+    color: black;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.active{
+    color: black;
+    text-decoration: underline;
+    text-underline-position: under;
+}
