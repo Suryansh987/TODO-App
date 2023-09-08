@@ -6,11 +6,12 @@
     display: flex;
     justify-content: center;
     background-color: rgb(249,249,249);
+    box-shadow: 0px 1px 20px 0px #c9c9c9;;
     list-style: none;
+    width: 100%;
 }
 .navitems{
-    margin: 10px 30px;
-    padding: 10px 20px;
+    margin: 1vw 2vw;
     font-size: 2rem;
     text-decoration: none;
     color: rgb(0 0 0 / 54%);
@@ -24,4 +25,36 @@
     color: black;
     text-decoration: underline;
     text-underline-position: under;
+}
+
+@media screen and (max-width: 630px) {
+    .navitems{
+        font-size: 1.5rem;
+        margin: 32px;
+    }
+    #navbar{
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .navitems{
+        font-size: 1.5rem;
+        margin: 16px;
+        margin-top: 3vh;
+    }
+    #navbar{
+        height: 10vh;
+    }
+}
+@media screen and (max-width: 370px) {
+    .navitems{
+        font-size: 1.2rem;
+        margin: 12px;
+        margin-top: 3vh;
+    }
+    #navbar{
+        height: 10vh;
+        width: 100%
+    }
 }
