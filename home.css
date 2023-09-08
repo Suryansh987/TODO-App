@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    height: 10vh;
+    height: 15vh;
     margin-top: 18vh;
     overflow: hidden;
 }
@@ -23,7 +23,7 @@
         width: 0%;
     }
     to{
-        width: 50%;
+        width: 46%;
     }
 }
 
@@ -48,7 +48,7 @@
 
 #todo {
     height: 8vh;
-    width: 45vw;
+    width: 75%;
     outline: none;
     border-radius: 26px;
     padding: 0px 30px;
@@ -60,7 +60,7 @@
 
 #add {
     height: 8vh;
-    width: 9vw;
+    width: 100px;
     margin-left: 15px;
     border-radius: 26px;
     outline: none;
@@ -69,6 +69,12 @@
     border: none;
     color: whitesmoke;
     font-family: cursive;
+}
+
+.btncontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
 }
 
 #todo-success-alert {
@@ -107,4 +113,141 @@
 .link-err {
     text-decoration: underline;
     color: #ee4040;
+}
+
+@media screen and (max-width: 1700px) {
+    @keyframes typing {
+        from{
+            width: 0%;
+        }
+        to{
+            width: 50%;
+        }
+    }
+}
+@media screen and (max-width: 1520px) {
+    @keyframes typing {
+        from{
+            width: 0%;
+        }
+        to{
+            width: 58%;
+        }
+    }
+}
+@media screen and (max-width: 1340px) {
+    @keyframes typing {
+        from{
+            width: 0%;
+        }
+        to{
+            width: 65%;
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    @keyframes typing {
+        from{
+            width: 0%;
+        }
+        to{
+            width: 75%;
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    @keyframes typing {
+        from{
+            width: 0%;
+        }
+        to{
+            width: 85%;
+        }
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .innerhead{
+        font-size: 3rem;
+    }
+    #add{
+        font-size: 1.5rem;
+    }
+    @keyframes typing {
+        from{
+            width: 0%;
+        }
+        to{
+            width: 57%;
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    @keyframes typing {
+        from{
+            width: 0%;
+        }
+        to{
+            width: 70%;
+        }
+    }
+}
+@media screen and (max-width: 770px) {
+    @keyframes typing {
+        from{
+            width: 0%;
+        }
+        to{
+            width: 75%;
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .innerhead{
+        font-size: 2rem;
+    }
+    #add{
+        font-size: 1rem;
+        margin: auto;
+    }
+    #todo-sucess-alert{
+        font-size: 1rem;
+    }
+    #todo-error-alert{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .innerhead{
+        font-size: 2rem;
+
+    }
+    #add{
+        font-size: 1rem;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 350px) {
+    .innerhead{
+        font-size: 1.5rem;
+
+    }
+    #todo-sucess-alert{
+        font-size: .6rem;
+    }
+    #todo-error-alert{
+        font-size: .6rem;
+    }
+    @keyframes typing {
+        from{
+            width: 0%;
+        }
+        to{
+            width: 75%;
+        }
+    }
 }
